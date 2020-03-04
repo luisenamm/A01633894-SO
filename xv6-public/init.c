@@ -20,7 +20,7 @@ main(void)
   dup(0);  // stderr
 
   for(;;){
-    printf(1, "bienvenido al shell\n");
+    printf(1, "bienvenido al shell de SO\n");
     pid = fork();
     if(pid < 0){
       printf(1, "init: fork failed\n");
