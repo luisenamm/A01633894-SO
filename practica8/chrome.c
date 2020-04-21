@@ -6,14 +6,14 @@
 #include <sys/wait.h>
 
 int main(){
-    int shmId=shmget(200,100,0644 | IPC_CREAT);
-    int hijos[5];
+    int shmId=shmget(300,400,0644 | IPC_CREAT);
+    int hijos[5];   
     for (int i=0; i<5; i++) {
         int pid=fork();
         hijos[i]=pid;
         if(pid!=0){
-            shmId=shmget(200,100,0644);
-            char * var =(char *)shmat(shmId,NULL,0);
+            shmId=shmget(300,400,0644);
+            int * var =(int *)shmat(shmId,NULL,0);
             var=&var[i*10];
             for(int j=0;j<10;j++){
                 var[j]=i+'0';
