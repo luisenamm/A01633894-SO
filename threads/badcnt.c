@@ -25,7 +25,7 @@ void * Count(void * a)
 int main(int argc, char * argv[])
 {
     pthread_t tid1, tid2;
-
+      sem_init(&semaforo, 0, 1);
 
     if(pthread_create(&tid1, NULL, Count, NULL))
     {
