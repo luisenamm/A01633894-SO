@@ -1,0 +1,17 @@
+drwxr-xr-x   2 root   root   4096 Apr 16  2019 boot
+drwxr-xr-x   5 root   root    360 Apr 15 00:19 dev
+drwxr-xr-x   1 root   root   4096 Apr 14 22:10 etc
+drwxr-xr-x   1 root   root   4096 Feb 17 11:45 home
+drwxr-xr-x   2 root   root   4096 Jan 14 09:43 media
+drwxr-xr-x   2 root   root   4096 Jan 14 09:43 mnt
+drwxr-xr-x   2 root   root   4096 Jan 14 09:43 opt
+dr-xr-xr-x 731 root   root      0 Apr 15 00:19 proc
+drwx------   2 root   root   4096 Jan 14 09:44 root
+drwxr-xr-x   1 root   root   4096 Feb 12 12:00 run
+drwxr-xr-x   2 root   root   4096 Jan 14 09:43 srv
+dr-xr-xr-x  12 root   root      0 Apr 14 04:16 sys
+drwxr-xr-x   5 root   root   4096 Apr 12 15:07 theia
+drwxrwxrwt   1 root   root   4096 Apr 15 00:24 tmp
+drwxr-xr-x   1 root   root   4096 Feb 19 01:22 usr
+drwxr-xr-x   1 root   root   4096 Apr 14 22:10 var
+drwxr-xr-x   5 gitpod gitpod 4096 Apr 15 00:19 workspace
